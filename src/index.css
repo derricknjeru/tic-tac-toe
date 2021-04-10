@@ -15,7 +15,8 @@ ul {
 }
 
 .status {
-    margin-bottom: 10px;
+    margin-bottom: 16px;
+    font-size: 150%;
 }
 
 .square {
@@ -25,12 +26,12 @@ ul {
     font-size: 24px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 64px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 64px;
 }
 
 .square:focus {
@@ -42,8 +43,10 @@ ul {
 }
 
 .game {
-    display: flex;
-    flex-direction: row;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .game-info {
